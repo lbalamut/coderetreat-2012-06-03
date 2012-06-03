@@ -1,11 +1,10 @@
+/**
+ */
 public class GameOfLife {
-    private boolean isAddedCell = false;
-
     public boolean isEmpty() {
-        return !isAddedCell;
+        return true;
     }
 
-    public void addCell(int x, int y) {
-        isAddedCell = true;
+    public void addCell(int i, int i1) {
     }
 }
