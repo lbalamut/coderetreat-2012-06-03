@@ -8,4 +8,8 @@ public class GameOfLife {
     public void addCell(int x, int y) {
         isAddedCell = true;
     }
+
+    public boolean isAlive(int x, int y) {
+        return false;
+    }
 }

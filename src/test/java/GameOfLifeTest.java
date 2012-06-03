@@ -24,4 +24,14 @@ public class GameOfLifeTest {
         assertEquals(false, game.isEmpty());
     }
 
+    @Test
+    public void beSpecifyCellAliveAfterAddingIt() throws Exception {
+        //given
+        GameOfLife game = new GameOfLife();
+        //when
+        game.addCell(1,1);
+        //then
+        assertEquals(true, game.isAlive(1,1));
+    }
+
 }
