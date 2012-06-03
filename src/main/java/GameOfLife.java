@@ -10,6 +10,6 @@ public class GameOfLife {
     }
 
     public boolean isAlive(int x, int y) {
-        return true;
+        return false;
     }
 }
