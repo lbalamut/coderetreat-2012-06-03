@@ -17,6 +17,6 @@ case class GameOfLife(cells: Set[Pair[Int, Int]] = Set()) {
          y <- cell._2 - 1 to cell._2 + 1)
       if (isAlive(x, y)) count += 1
 
-    count == 3 | count == 4
+    count == 3 || count == 4
   }
 }
